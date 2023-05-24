@@ -1,0 +1,116 @@
+.addition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  width: 364px;
+  height: 202px;
+  background: var(--background-color);
+  border-radius: 10px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 96px;
+  width: 332px;
+  height: 32px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 332px;
+  height: 40px;
+  background: var(--background-color2);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+}
+
+.coursesCounter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 46px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white-color);
+}
+
+.userCounter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 62px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white-color);
+}
+
+.title {
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+.iconTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 179px;
+  height: 32px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.iconTitleWrapper svg {
+  cursor: pointer;
+}
+
+.galleryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 332px;
+  height: 66px;
+}
+
+.pictureWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.amount {
+  color: var(--white-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

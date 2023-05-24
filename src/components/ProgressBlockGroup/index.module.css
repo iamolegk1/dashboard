@@ -1,0 +1,6 @@
+.blocksGroup {
+  width: 851px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+}

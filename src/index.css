@@ -1,0 +1,71 @@
+:root {
+  --text-color: #333;
+  --background-color: #28292c;
+  --background-color2: rgba(255, 255, 255, 0.05);
+  --background-color3: #28292b;
+  --background-color4: rgba(255, 255, 255, 0.15);
+  --white-color: #ffffff;
+  --dark-color: #222325;
+  --dark-color2: #202225;
+  --grey-color: rgba(255, 255, 255, 0.5);
+  --grey-color2: rgba(255, 255, 255, 0.3);
+  --grey-color3: #8c8b8e;
+  --grey-color4: #939495;
+  --grey-color5: #757575;
+  --aqua-color: #7789ea;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background: #222325;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}

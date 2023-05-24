@@ -1,0 +1,57 @@
+.completionProgress {
+  width: 851px;
+  height: 314px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.planetsWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.planets {
+  width: 100%;
+  height: 100%;
+}
+
+.astronautWrapper {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.astronaut {
+  width: 100%;
+  height: auto;
+}
+
+.completed {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 175px;
+  height: 42px;
+  background: var(--background-color4);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+}
